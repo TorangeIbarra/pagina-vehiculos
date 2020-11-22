@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ibarrautos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="shortcut icon" href="fotos/face.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
+    <script  src="js/acciones.js"></script>
+</head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+        <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link es" href="index.html">Inicio</a>
+              <a class="nav-link en" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link es" href="#mapa">Ubicacion</a>
+              <a class="nav-link en" href="#mapa">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link es" href="#stripe">Variedad</a>
+              <a class="nav-link en" href="#stripe">Variety</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link es" href="acercade.html">Acerca de</a>
+              <a class="nav-link en" href="acercade.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <button type="button" class="btn btn-primary" onclick="setLanguaje('es')">Castellano</button>
+              <button type="button" class="btn btn-primary" onclick="setLanguaje('en')">Inglés</button>
+            </li>
+          </ul>
+    </nav> 
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
+        <h1>
+            Ibarrautos
+        </h1>
+
+         <p class="es">
+            Coches increibles
+        </p>
+        <p class="en">
+          Incredible cars
+      </p>
+          <a href="acercade.html" class="btn btn-primary es">Conoce mas</a>
+          <a href="acercade.html" class="btn btn-primary en">Learn more</a>
+    </div>
+    </header> 
+    
+    <section>
+      <div class="container mt-5 mb-5 mt-2">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 mt-2">
+            <div class="card">
+              
+              <div title="motor de avion" class="cover cover-small" style="background-image: url(fotos/motor.jpg);">
+
+              </div>
+          <div class="card-body">
+            <h5 class="card-title es">Historia</h5>
+            <h5 class="card-title en">History</h5>
+            <p class="card-text es">Programador, amante de los coches.</p>
+            <p class="card-text en"> Programmer, car lover.</p>
+          </div>     
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mt-2">
+        <div class="card">
+          <div title="llanta de coche" class="cover cover-small" style="background-image: url(fotos/wheel.jpg);">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title es">Pasión por los coches</h5>
+            <h5 class="card-title en">Pasion for cars</h5>
+                    <p class="card-text es">Esta pagina es para hablar de coches con gente de coches. </p>
+                    <p class="card-text en">This page is for talking about cars with car people. </p>
+                </div>     
+              </div>
+            </div>  
+          <div class="col-12 col-sm-6 col-md-4 mt-2">
+        <div class="card">
+          <div title="interior de coche" class="cover cover-small" style="background-image: url(fotos/interior.jpg);">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title es">Vision</h5>
+            <h5 class="card-title en">Vision</h5>
+            <p class="card-text es">Poder conocer gente apacionada por los automoviles y conocer sus experiencias </p>
+            <p class="card-text en">Being able to meet people who are fond of cars and learn about their experiences</p>
+            </div>     
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5 mt-2">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <img 
+              src="svg/DoogieDoodle.svg"
+              alt="Persona ilustrada sentada en un coche"
+          />
+          </div>         
+            <div class="col-12 col-sm-6">
+              <h3 class="es">
+                ¡Ven a conocer acerca de tu auto favorito!
+              </h3>
+              <h3 class="en">
+                ¡Come and talk about your favorite car!
+              </h3>
+              <p class="es">
+                Danos tu opinion de cualquier vehiculo
+              </p>
+              <p class="en">
+                Give us your opinion about any car
+              </p>
+                <a class="es" href="#mapa"> Ir a mapa</a>
+                <a class="en" href="#mapa"> Go to map</a>
+
+          </div>
+        </div>
+        <form>
+          <label class="es" for="email">Correo Electronico</label> 
+          <label class="en" for="email">Email</label> 
+
+          <div class="d-flex">
+          <div class="flex-fill mr-2">
+            <input type="email" id="email" class="form-control"/>
+          </div>
+          <button type="submit" class="btn btn-primary es">
+            Enviar
+          </button>
+          <button type="submit" class="btn btn-primary en">
+            Send
+          </button>
+        </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <!-- TIRA DE COCHES -->
+      <div class="container mt-5 mb-5 mt-2" id="stripe">
+        <div class="car-stripe">
+          <div class="stripe-container">
+            <div class="card">
+              <div title="Mercedes Benz gt" class="cover cover-small" style="background-image: url(fotos/mercedes.jpg);">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Mercedes Benz AMG GTR</h5>
+                  <span class="badge badge-info">Deportivo</span>
+                    </div>     
+                  </div>
+                  <div class="card">
+                    <div title="jaguar" class="cover cover-small" style="background-image: url(fotos/jaguar.jpg);">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Jaguar <E-Type></E-Type></h5>
+                        <span class="badge badge-info">Clasico</span>
+                          </div>     
+                        </div>
+                        <div class="card">
+                          <div title="charger" class="cover cover-small" style="background-image: url(fotos/charger.jpg);">
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Charger RT</h5>
+                              <span class="badge badge-info">Muscle</span>
+                                </div>     
+                              </div>
+                              <div class="card">
+                                <div title="jeep" class="cover cover-small" style="background-image: url(fotos/jeep.jpg);">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Jeep</h5>
+                                    <span class="badge badge-info">Off Road</span>
+                                      </div>     
+                                    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5 text-center" id="mapa">
+        <h4 class="es">
+          Aqui nos vemos:
+        </h4>
+        <h4 class="en">
+          Here we are:
+        </h4>
+          <p>
+            Av. Paseo de la Reforma, Juárez, Cuauhtémoc, 06500 Ciudad de México, CDMX
+          </p>
+            <div class="responsive-iframe">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661513756038!2d-99.16979340061388!3d19.427025645831172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses-419!2smx!4v1605836068920!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>      </div>
+            </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5 text-center">
+        <h5 class="es">
+          Tienes algun interes por algun coche
+        </h5>
+        <h5 class="en">
+          Do you have any interest in a car
+        </h5>
+        <p class="es">
+          Rellena el formulario para recibir informacion
+        </p>
+        <p class="en">
+          Fill the form for more info
+        </p>
+        <form name="formulario">
+          <div class="row">
+            <div class="col-6">
+              <input placeholder="Nombre" class="ancho-completo" type="text" name="nombre">
+            </div>
+            <div class="col-6">
+              <p>
+                <input placeholder="Apellido" class="ancho-completo" type="text" name="apellido">
+              </p>
+            </div>
+            <div class="col-12">
+              <p>
+                <input placeholder="Email" class="ancho-completo" type="email" name="correo">
+              </p>
+            </div>
+            <hr/>
+            <p class="es">
+              En que auto estas interesado
+            </p>  
+            <p class="en">
+              What car are you interested in?
+            </p>  
+            <fieldset class="form-group">
+              <div class="row">
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="auto" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Sedan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="auto" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      SUV
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="auto" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      Classic
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="validarFormulario()">Submit</button>  
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
